@@ -1,1 +1,1 @@
-# Ipl-win-Probability-Predictor
+# IPL-Win-Probability-Predictor
