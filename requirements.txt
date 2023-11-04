@@ -2,6 +2,6 @@ streamlit
 pandas
 numpy
 gunicorn
-sklearn
+scikit-learn
 gevent --pre
 auto-py-to-exe
