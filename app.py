@@ -237,7 +237,7 @@ def run():
     st.markdown(footer, unsafe_allow_html=True)
 
 # 'app' as the Streamlit app callable for Gunicorn
-app == run()
+app = run()
 
 
 
