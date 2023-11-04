@@ -165,7 +165,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-def run(a,b):
+def run():
     teams = ['Sunrisers Hyderabad', 'Mumbai Indians', 'Royal Challengers Bangalore', 'Kolkata Knight Riders', 'Kings XI Punjab', 'Chennai Super Kings', 'Rajasthan Royals', 'Delhi Capitals']
     cities = ['Hyderabad', 'Bangalore', 'Mumbai', 'Indore', 'Kolkata', 'Delhi', 'Chandigarh', 'Jaipur', 'Chennai', 'Cape Town', 'Port Elizabeth', 'Durban', 'Centurion', 'East London', 'Johannesburg', 'Kimberley', 'Bloemfontein', 'Ahmedabad', 'Cuttack', 'Nagpur', 'Dharamsala', 'Visakhapatnam', 'Pune', 'Raipur', 'Ranchi', 'Abu Dhabi', 'Sharjah', 'Mohali', 'Bengaluru']
 
@@ -237,7 +237,7 @@ def run(a,b):
     st.markdown(footer, unsafe_allow_html=True)
 
 # 'app' as the Streamlit app callable for Gunicorn
-app = run
+app == run()
 
 
 
