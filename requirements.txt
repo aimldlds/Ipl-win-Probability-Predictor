@@ -3,4 +3,5 @@ pandas
 numpy
 gunicorn
 sklearn
-
+gevent
+auto-py-to-exe
