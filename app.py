@@ -158,7 +158,7 @@ def streamlit_app():
     st.markdown(footer, unsafe_allow_html=True)
 
 # Define 'app' as the Streamlit app callable for Gunicorn
-app = streamlit_app
+app = streamlit_app()
 
     
     
