@@ -3,4 +3,6 @@ pandas
 numpy
 gunicorn
 sklearn
+gevent --pre
 auto-py-to-exe
+--no-use-wheel --upgrade distribute
